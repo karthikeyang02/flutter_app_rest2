@@ -4,7 +4,7 @@ import 'package:http/http.dart' show Client;
 import 'package:http/http.dart' as http;
 
 class ApiService {
-  final String baseUrl = "http://192.168.43.96/restflutter";
+  final String baseUrl = "http://localhost/restflutter";
   Client client = Client();
 
   Future<List<Profile>> getProfiles() async {
